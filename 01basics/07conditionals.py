@@ -67,6 +67,35 @@ is_google =True
 is_facebook=False
 is_email = True
 '''
+is_google =True
+is_facebook=False
+is_email = True
+
+# if (is_google or is_facebook or is_email):
+#     print("You are signed in")
+# else:
+#     print("Please sign in")
+
+# if is_google:
+#     print("You are signed in")
+# elif is_email:
+#     print("You are signed in")
+# elif is_facebook:
+#     print("You are signed in")
+# else:
+#     print("Please signed in")
+
+
+# if is_google:
+#     print("Signed in")
+# else:
+#     if is_facebook:
+#         print("Signed in")
+#     else:
+#         if is_email:
+#             print("signed in")
+#         else:
+#             print("Please sign in")
 
 
 '''
@@ -75,6 +104,26 @@ is_pay = True
 is_loggedin = True
 # Whether user can make purchase or not
 '''
+
+is_cart= False
+is_pay = True
+is_loggedin = True
+
+# if (is_cart and is_pay and is_loggedin):
+#     print("order placed successfully")
+# else:
+#     print("Cannot place order")
+
+if is_loggedin:
+    if is_cart:
+        if is_pay:
+            print("Order placed successfully")
+        else:
+            print("cannot place order")
+    else:
+        print("cannot place order")
+else:
+    print("cannot place order")
 
 
 
