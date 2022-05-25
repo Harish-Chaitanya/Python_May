@@ -64,5 +64,9 @@ fruits= ["mango","guava","grapes","apple","kiwi"]
 # for i in name:
 #     print(i)
 
-for num in range(5):
-    print(num)
+# for num in range(5):
+#     print(num)
+
+# 
+# while True:
+#     print("hello")
