@@ -70,3 +70,18 @@ fruits= ["mango","guava","grapes","apple","kiwi"]
 # 
 # while True:
 #     print("hello")
+
+
+# for i in range(5):
+#     if i==3:
+#         break
+#     print(i)
+# else:
+#     print("loop executed successfully")
+
+for i in range(5):
+    if i==3:
+        continue
+    print(i)
+else:
+    print("loop executed successfully")
