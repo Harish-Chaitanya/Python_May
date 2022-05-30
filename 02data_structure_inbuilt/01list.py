@@ -64,5 +64,5 @@ print(ch)
 # ch.sort(reverse=True)
 # print(ch)
 
-ch.reverse()
-print(ch)
+# ch.reverse()
+# print(ch)
