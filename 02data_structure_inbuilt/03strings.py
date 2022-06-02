@@ -60,5 +60,46 @@ password = "             ab c123          "
 # print(password.strip())
 
 # TODO: split
+s= "we are learning python"
+# print(s.split())
+# print(s.split("e",2))
+
 
 # TODO: join
+
+# fname="john"
+# lname="doe"
+# uname=".".join([fname,lname])
+# # print(uname)
+# domain="abc.com"
+# email='@'.join([uname,domain])
+# # print(email)
+
+# print(email.split('@'))
+
+# TODO: escape sequences
+'''
+\n -> new line
+\t -> tab
+\b -> backspace
+\a -> alert
+\\ ->\
+\'->'
+'''
+# path = r"C:\new\temp\docs"
+# print(path)
+
+# TODO: printing formats
+n1=5
+n2=3
+ans=n1+n2
+
+# n1 + n2 = ans
+
+# print(str(n1) + '+' + str(n2) + '=' + str(ans))
+
+# print("{0} + {1} = {2} ".format(n1,n2,ans))
+
+# TODO: f-strings
+# print(f"{n1} + {n2} = {ans}")
+
